@@ -57,6 +57,7 @@ r = ConsultaCEP.ConsultarCeps().CEPS();
 ```
 
 ### Observação
-É possível obter retornos em JSONP modificando a ResponseType para : json/?callback=nome_do_seu_callback
+É possível obter retornos em JSONP modificando a ResponseType para : 
+json/?callback=nome_do_seu_callback
 Também em unicode:  json/unicode/?callback=nome_do_seu_callback
 
