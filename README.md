@@ -5,29 +5,29 @@
 Bem, é super simples, basta seguir os exemplos abaixo:
 
 ### Obtendo lista de retornos possíveis.
-'''javascript
+```javascript
 console.log(ConsultaCEP.ResponseTypeList);
-'''
+```
 
 ### Definindo tipo de retornos
-'''javascript
+```javascript
 ConsultaCEP.ResponseType = 'tipo_de_retorno';
-'''
+```
 
 ### Obter tipo de retorno atual
-'''javascript
+```javascript
 console.log(ConsultaCEP.ResponseType);
-'''
+```
 
 
 ### Obter e armazenar dados de um array de CEPs
-'''javascript
+```javascript
 ArrCeps = ['12345678','00000000','22525658'];
 r = ConsultaCEP.ConsultarCeps().CEPS();
-'''
+```
 
 ### Retorno JSON
-'''json
+```json
 {
   "cep": "01001-000",
   "logradouro": "Praça da Sé",
@@ -39,10 +39,10 @@ r = ConsultaCEP.ConsultarCeps().CEPS();
   "ibge": "3550308",
   "gia": "1004"
 }
-'''
+```
 
 ### Retorno XML
-'''xml
+```xml
 <xmlcep>
 <cep>01001-000</cep>
 <logradouro>Praça da Sé</logradouro>
@@ -54,7 +54,7 @@ r = ConsultaCEP.ConsultarCeps().CEPS();
 <ibge>3550308</ibge>
 <gia>1004</gia>
 </xmlcep>
-'''
+```
 
 ### Observação
 É possível obter retornos em JSONP modificando a ResponseType para : json/?callback=nome_do_seu_callback
