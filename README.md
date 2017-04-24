@@ -23,7 +23,7 @@ console.log(ConsultaCEP.ResponseType);
 ### Obter e armazenar dados de um array de CEPs
 ```javascript
 ArrCeps = ['12345678','00000000','22525658'];
-r = ConsultaCEP.ConsultarCeps().CEPS();
+r = ConsultaCEP.ConsultarCeps().CEPS(ArrCeps);
 ```
 
 ### Retorno JSON
